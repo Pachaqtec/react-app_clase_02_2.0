@@ -1,0 +1,13 @@
+.c_wrapper_input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 40%;
+  & > input {
+    padding: 10px 15px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    outline: none;
+  }
+}
